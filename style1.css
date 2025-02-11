@@ -1,0 +1,356 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: whitesmoke;
+}
+.fc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one{
+    justify-content:center;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    color: rgb(255, 170, 0);
+    font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+.active{
+    color: rgb(255, 170, 0);
+}
+.first_section{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 400px;
+    background-image: url(image4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.section2{
+    background-color: rgb(255, 170, 0 );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.section3{
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.elements{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    justify-content:center ;
+    gap: 47px;
+}
+.elements i{
+    color:  rgb(255, 170, 0 ) ;
+}
+.service{
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.section_4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 3px 10px ;
+}
+.section_4 img{
+    max-width: 255px;
+
+}
+.electrical{
+    margin: 50px;
+}
+.electrical p{
+    font-size:10px ;
+}
+.section_5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 3px 10px ;
+    background-color: whitesmoke;
+}
+.c1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px
+}
+.c1 i{
+    color: rgb(255, 170, 0 );
+}
+.section_5 img{
+    width: 275px;
+    margin: 50px;
+}
+.section_5 p{
+    font-size: 10px;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 170, 0 );
+    text-decoration-thickness: 3px;
+}
+.project{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project_component{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.nav a{
+    color: black;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .aaa{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 13px;
+}
+.nav .aaa .active{
+    color: rgb(255, 170, 0 );
+}
+.image_gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image_gallery img{
+    width: 252.5px;
+    height: 200px;
+}
+.subsection7{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 10px ;
+}
+.subsection7 .part_1 img{
+    width: 370px;
+    height: 68%;
+}
+.subsection7 .date_time{
+    display: flex;
+    opacity: 0.4;
+}
+.subsection7 p{
+    font-size: 12px;
+}
+.subsection7 .read{
+    color: rgb(255, 170, 0 );
+    font-size: 12px;
+    margin-top: 15px;
+    padding-top: 0px;
+}
+.subsection7 .part_2 .c2{
+    display: flex;
+    justify-content: space-between;
+}
+.subsection7 .part_2 .c2 img{
+    width: 75px;
+    height: 75px;
+}
+.subsection7 .part_2 .c2 .date_time2{
+    display: flex;
+    opacity: 0.4;
+    padding-top: 0;
+}
+.subsection7 .part_2 .c2 p{
+    font-size: 12px;
+}
+.subsection7 .part_2 .a{
+    font-size: 15px;
+}
+.section_8{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 10px ;
+}
+.section_8 p{
+    font-size: 12px;
+}
+.section_9 .heading{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 10px ;
+    justify-content: space-between;
+}
+.section_9 button{
+    border: none;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+.section_9 .body{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 10px ;
+    justify-content: space-between;
+    gap: 50px;
+    border-radius: 20px;
+}
+.section_9 .profile1{
+    display: flex;
+}
+.section_9 img{
+    width: 100px;
+    height: 100%;
+}
+.section_9 p{
+    font-size: 12px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.section_9{
+    background-color: whitesmoke;
+}
+.section_9 .body1{
+    background-color: white;
+    border-radius: 20px;
+}
+.section_10 .heading{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 10px ;
+    justify-content: space-between;
+}
+.section_10 img{
+    width: 75px;
+    height: 75px;
+}
+.section_10 button{
+    border: none;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+.section_10 .body{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-between;
+}
+.section_10 .c3{
+    border: 2px solid gray;
+    padding: 10px 27.7px 10px 27.7px;
+}
+@media (max-width:768px){
+    .subsection7{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .section10 .body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section10 .body img{
+        width: 30px;
+        height: 30px;
+    }
+    .section_10 .c3{
+        padding: 5px 4px;
+    }
+}
+.section_11{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.section_11 .all{
+    display: flex;
+    margin-top: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 10px ;
+    gap: 2px;
+}
+.section_11 p{
+    font-size: 12px;
+}
+.section_11 .ffff{
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}
+.section_11 div{
+    margin: 3px;
+}
+footer{
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section_11 .mailbar{
+    background-color: rgb(44, 41, 41);
+}
